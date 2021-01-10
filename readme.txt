@@ -34,9 +34,11 @@ VOCdevkit压缩包解压后可以直接替换项目中的VOCdevkit，里边有�
 
 3. 代码使用
 
-如果说直接利用已有模型进行预测的话，可以在yolo.py中修改model_path和classes_path使其对应训练好的文件，然后利用predict.py或者video.py进行预测
+如果说直接利用已有模型进行预测的话，可以在yolo.py中修改model_path（19行）和classes_path（21行）使其对应训练好的文件。
+可以从百度网盘中将weights文件夹中权重文件解压到/model_data路径下，即可直接使用
+然后利用predict.py或者video.py进行预测
 运行predict.py，输入img/1.jpg即可，（目前已经修改好了，可以直接跑）
-运行video.py，在赋予权限的情况下可以实现视频的检测
+运行video.py，在赋予权限的情况下可以实现对视频的检测
 
 如果利用网络进行训练
 
