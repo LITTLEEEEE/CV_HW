@@ -1,4 +1,4 @@
-github链接:https://github.com/LITTLEEEEE/public_detect.git
+github链接:https://github.com/LITTLEEEEE/CV_HW.git
 1. 所需环境
 tensorflow2.2
 keras 2.1.5
@@ -23,6 +23,14 @@ kmeans_for_anchors.py用于初始检测框参数生成
 video.py用于利用摄像头或者视频进行检测
 voc_annotation.py、date_trans.py用于数据集预处理
 
+
+（ps:由于文件大小限制，将三个.h5文件和数据集文件转存到了百度云盘上，链接为：
+
+链接: https://pan.baidu.com/s/1YbgAlUNUFKg0Qy3bzU9G-w  密码: 9q93
+--来自百度网盘超级会员V3的分享
+
+weights压缩包解压后有初始的模型权重（init.h5）、未经过改变的训练权重（unchanged.h5）、经过修改后的模型训练权重（changed.h5）
+VOCdevkit压缩包解压后可以直接替换项目中的VOCdevkit，里边有本次实验所用的数据集，格式均已经调好）
 
 3. 代码使用
 
